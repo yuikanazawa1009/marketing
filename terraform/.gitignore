@@ -1,0 +1,24 @@
+# Terraform 実行ファイル・状態ファイル
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate
+*.tfstate.*
+
+# 実際の変数ファイル（秘密情報を含む）
+terraform.tfvars
+*.auto.tfvars
+
+# クラッシュログ
+crash.log
+crash.*.log
+
+# override ファイル
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform plan ファイル
+*.tfplan

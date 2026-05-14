@@ -1,0 +1,16 @@
+[project]
+name = "running-trainer"
+version = "0.1.0"
+description = "ランニングのトレーニング計画を管理するCLIツール"
+requires-python = ">=3.10"
+dependencies = [
+    "requests>=2.31",
+    "anthropic>=0.40",
+]
+
+[project.scripts]
+running-trainer = "running_trainer.cli:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"

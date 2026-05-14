@@ -1,0 +1,9 @@
+# terraform.tfvars.example
+# このファイルを terraform.tfvars にコピーして実際の値を記入してください
+# terraform.tfvars は .gitignore で除外されています
+
+place_id                 = "ChIJXXXXXXXXXXXXXXXXXXXXXXX"   # 本町施設の Place ID
+account_id               = "1234567890"                       # GBP アカウント ID
+location_id              = "locations/1234567890"             # GBP ロケーション ID
+service_account_key_path = "/absolute/path/to/honmachi-sa-key.json"
+auto_reply_enabled       = false
