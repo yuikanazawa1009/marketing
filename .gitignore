@@ -70,6 +70,13 @@ web_modules/
 .env.*
 !.env.example
 
+# Confidential company files and secrets
+.company/
+client_secret.json
+credentials.json
+*.key
+*.pem
+
 # parcel-bundler cache (https://parceljs.org/)
 .cache
 .parcel-cache
