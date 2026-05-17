@@ -50,6 +50,11 @@
         .staff-card {
             flex: 1 1 0;
             min-width: 0;
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
         @media (max-width: 1200px) {
@@ -71,14 +76,6 @@
             .staff-card {
                 flex: 0 1 100%;
             }
-        }
-
-        .staff-card {
-            background: white;
-            border-radius: 15px;
-            overflow: hidden;
-            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
         .staff-card:hover {
